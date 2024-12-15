@@ -39,6 +39,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "prepare": "husky install"
+    "build:staging": "env-cmd -f .env.staging npm run build"
   },
   "eslintConfig": {
     "extends": [
