@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://github.com/ClayOglesby/zokuchat",
-    "scripts": {
-    "predeploy": "npm run build",
--   "deploy": "gh-pages -d build",
-+   "deploy": "gh-pages -b master -d build",
+  "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@material-tailwind/react": "^1.2.5",
