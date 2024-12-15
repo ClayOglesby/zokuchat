@@ -2,6 +2,7 @@
   "name": "deso-chat-protocol",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/ClayOglesby/zokuchat",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@material-tailwind/react": "^1.2.5",
