@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://github.com/ClayOglesby/zokuchat",
+  
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@material-tailwind/react": "^1.2.5",
@@ -29,6 +30,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
